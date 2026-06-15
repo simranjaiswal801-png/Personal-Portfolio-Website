@@ -1,0 +1,234 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simran's Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+    color:#333;
+}
+
+header{
+    background:#1e3a8a;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+header h1{
+    margin-bottom:10px;
+}
+
+header p{
+    margin-bottom:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#facc15;
+}
+
+section{
+    max-width:900px;
+    margin:30px auto;
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+#hero{
+    text-align:center;
+}
+
+#hero img{
+    width:200px;
+    height:200px;
+    object-fit:cover;
+    border-radius:50%;
+    border:4px solid #1e3a8a;
+    margin-bottom:15px;
+}
+
+#hero h2{
+    color:#1e3a8a;
+    margin-bottom:10px;
+}
+
+h2{
+    color:#1e3a8a;
+    margin-bottom:15px;
+}
+
+.skill-card{
+    display:inline-block;
+    background:#1e3a8a;
+    color:white;
+    padding:10px 20px;
+    margin:8px;
+    border-radius:20px;
+}
+
+form input,
+form textarea{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+input[type="submit"]{
+    background:#1e3a8a;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+input[type="submit"]:hover{
+    background:#142d6b;
+}
+
+.social-links a{
+    text-decoration:none;
+    color:#1e3a8a;
+    font-weight:bold;
+}
+
+.social-links a:hover{
+    text-decoration:underline;
+}
+
+footer{
+    text-align:center;
+    background:#1e3a8a;
+    color:white;
+    padding:15px;
+    margin-top:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Simran Jaiswal</h1>
+    <p>Computer Science & Data Science Student</p>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<section id="hero">
+    <img src="image.png" alt="Profile picture of Simran Jaiswal">
+
+    <h2>Hello, I'm Simran 👋</h2>
+
+    <p>
+        Aspiring Web Developer and Data Analyst passionate about
+        creating modern websites and solving real-world problems
+        using technology.
+    </p>
+</section>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        Hello! I am Simran Jaiswal, a Computer Science and Engineering
+        (Data Science) student. I am interested in Web Development,
+        Frontend Development, and Data Analytics.
+    </p>
+
+    <br>
+
+    <p>
+        I enjoy learning new technologies, building projects,
+        and continuously improving my technical skills.
+        My goal is to become a skilled software developer and
+        contribute to innovative technology solutions.
+    </p>
+</section>
+
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skill-card">HTML5</div>
+    <div class="skill-card">CSS3</div>
+    <div class="skill-card">JavaScript</div>
+    <div class="skill-card">Python</div>
+    <div class="skill-card">Java</div>
+    <div class="skill-card">Git & GitHub</div>
+</section>
+
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <form action="#" method="post">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="submit" value="Send Message">
+
+    </form>
+
+    <br>
+
+    <div class="social-links">
+        <p>
+            GitHub:
+            <a href="https://github.com/simranjaiswal801-png" target="_blank">
+                Visit Profile
+            </a>
+        </p>
+
+        <br>
+
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/simran-jaiswal-948791341/" target="_blank">
+                Visit Profile
+            </a>
+        </p>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Simran Jaiswal. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
+```

@@ -16,7 +16,9 @@ This is a personal portfolio website developed using HTML and CSS.
 ## Technologies Used
 
 * HTML5
-  
+
+## No external dependencies required.
+
 ## Author
 
 Simran Jaiswal

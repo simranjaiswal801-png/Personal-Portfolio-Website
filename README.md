@@ -41,6 +41,12 @@ Portfolio-Website/
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/41c68497-d6b5-41fa-9ac0-4437d267e431" />
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/23ab0109-374d-405e-893e-98b7d8856136" />
+
+
+## Author 
+Simran Jaiswal
+
 
 
 

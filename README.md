@@ -35,6 +35,8 @@ Portfolio-Website/
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6be52b65-9ad2-4fe3-ad27-f80a7bb95d15" />
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9d326b63-a92b-4e11-9095-8e6f625dfc78" />
+
 ![Uploading image.png…]()
 
 

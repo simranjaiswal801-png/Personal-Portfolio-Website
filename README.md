@@ -46,15 +46,3 @@ Portfolio-Website/
 
 ## Author 
 Simran Jaiswal
-
-
-
-
-
-
-
-
-
-
-## Author
-Simran Jaiswal

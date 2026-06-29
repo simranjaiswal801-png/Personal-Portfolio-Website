@@ -6,7 +6,7 @@
     <title>Simran Portfolio</title>
 
     <link rel="stylesheet" href="style.css" />
-
+    <link rel="icon" href="images/favicon.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
@@ -22,18 +22,21 @@
           <a href="#about">About</a>
           <a href="#skills">Skills</a>
           <a href="#projects">Projects</a>
-         <a href="#resume">Resume</a>
+          <a href="#resume">Resume</a>
           <a href="#contact">Contact</a>
+          <button id="darkModeBtn">🌙 Dark Mode</button>
         </nav>
       </div>
     </header>
 
     <main>
+      <div id="welcomeMessage"></div>
+
       <!-- Hero Section -->
       <section id="hero">
         <img src="image.png" alt="Profile picture of Simran Jaiswal" />
 
-        <h2 style="color: white">Hello, I'm Simran👋</h2>
+        <h2 style="color: white">Hello, I'm Simran 👋</h2>
 
         <p>
           Aspiring Web Developer and Data Analyst passionate about building
@@ -129,7 +132,7 @@
               target="_blank"
               class="project-btn"
             >
-                View Project
+              View Project
             </a>
           </div>
 
@@ -146,7 +149,7 @@
               target="_blank"
               class="project-btn"
             >
-                View Project
+              View Project
             </a>
           </div>
 
@@ -171,46 +174,51 @@
             <h3>NewsNova AI</h3>
 
             <p>
-                An AI-powered news aggregator that provides users with the latest
-                news articles and personalized content based on their interests.
+              An AI-powered news aggregator that provides users with the latest
+              news articles and personalized content based on their interests.
             </p>
 
-            <a href="https://github.com/simranjaiswal801-png/newsnova-ai" class="project-btn"> View Project </a>
+            <a
+              href="https://github.com/simranjaiswal801-png/newsnova-ai"
+              class="project-btn"
+            >
+              View Project
+            </a>
           </div>
 
           <div class="project-card">
             <h3>Finance Dashboard</h3>
 
             <p>
-                A financial dashboard that allows users to track their expenses,
-                visualize spending patterns, and manage their finances effectively.
+              A financial dashboard that allows users to track their expenses,
+              visualize spending patterns, and manage their finances
+              effectively.
             </p>
 
-            <a href="https://finance-dashboard-six-inky-53.vercel.app" class="project-btn"> View Project </a>
+            <a
+              href="https://finance-dashboard-six-inky-53.vercel.app"
+              class="project-btn"
+            >
+              View Project
+            </a>
           </div>
         </div>
       </section>
 
       <section id="resume">
+        <div class="resume-container">
+          <h3>Download My Resume</h3>
 
-    <div class="resume-container">
+          <p>
+            Interested in my skills, projects, and experience? Download my
+            resume to learn more about my background.
+          </p>
 
-        <h3>Download My Resume</h3>
-
-        <p>
-            Interested in my skills, projects, and experience?
-            Download my resume to learn more about my background.
-        </p>
-
-        <a href="simran_web_dev.pdf"
-           download
-           class="resume-btn">
+          <a href="simran_web_dev.pdf" download class="resume-btn">
             📄 Download Resume
-        </a>
-
-    </div>
-
-</section>
+          </a>
+        </div>
+      </section>
 
       <!-- Contact Section -->
       <section id="contact">
@@ -229,26 +237,33 @@
           <input type="submit" value="Send Message" />
         </form>
 
-       <div class="social-links">
+        <div class="social-links">
+          <a
+            href="https://github.com/simranjaiswal801-png"
+            target="_blank"
+            class="social-btn github"
+          >
+            🚀 GitHub Profile
+          </a>
 
-    <a href="https://github.com/simranjaiswal801-png"
-       target="_blank"
-       class="social-btn github">
-        🚀 GitHub Profile
-    </a>
-
-    <a href="https://www.linkedin.com/in/simran-jaiswal-948791341/"
-       target="_blank"
-       class="social-btn linkedin">
-        💼 LinkedIn Profile
-    </a>
-
-</div>
+          <a
+            href="https://www.linkedin.com/in/simran-jaiswal-948791341/"
+            target="_blank"
+            class="social-btn linkedin"
+          >
+            💼 LinkedIn Profile
+          </a>
+          <button id="topBtn">⬆</button>
+        </div>
       </section>
     </main>
+
+    <p id="formMessage"></p>
 
     <footer>
       <p>&copy; 2026 Simran Jaiswal. All Rights Reserved.</p>
     </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

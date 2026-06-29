@@ -1,48 +1,124 @@
-# Personal Portfolio Website
+# 🌐 Interactive Portfolio Website
 
-## Description
-This is a responsive personal portfolio website created using HTML5 and CSS3. It showcases my profile, skills, projects, resume, and contact information.
+## 📖 Project Overview
 
-## Features
-- About Me Section
-- Skills Section
-- Projects Section
-- Resume Download
-- Contact Form
-- GitHub and LinkedIn Links
+This is a responsive and interactive Personal Portfolio Website developed using **HTML5, CSS3, and JavaScript**. The website showcases my profile, technical skills, projects, resume, and contact information while providing an engaging user experience through JavaScript-based interactive features.
+
+---
+
+## ✨ Features
+
 - Responsive Design
+- Dark Mode Toggle
+- Contact Form Validation
+- Welcome Message
+- Scroll to Top Button
+- Resume Download
+- Project Showcase
+- Social Media Links
+- Smooth Navigation
 
-## Technologies Used
+---
+
+## 🛠️ Technologies Used
+
 - HTML5
 - CSS3
+- JavaScript
 
-## Live Demo
- https://simranjaiswal801.github.io/Personal-Portfolio-Website/
+---
 
-## Project Structure
+## 📂 Project Structure
+
+```
 Portfolio-Website/
 │
 ├── index.html
 ├── style.css
+├── script.js
 ├── README.md
 │
-│── image.png
+├── images/
+│   └── image.png
 │
-│── Simran_Jaiswal_Resume.pdf
+├── resume/
+│   └── simran_web_dev.pdf
+│
+└── screenshots/
+```
 
-## ScreenShort
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/0a661a71-b667-41af-ba97-d03dec4de25c" />
+---
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6be52b65-9ad2-4fe3-ad27-f80a7bb95d15" />
+## 🚀 Setup Instructions
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/9d326b63-a92b-4e11-9095-8e6f625dfc78" />
+1. Download or clone this repository.
+2. Open the project folder in Visual Studio Code.
+3. Make sure all project files are present.
+4. Open **index.html** in your preferred web browser.
+5. Explore the portfolio and its interactive features.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/1daba40e-fd6d-464e-bf7b-67df30f18900" />
+---
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/41c68497-d6b5-41fa-9ac0-4437d267e431" />
+## 💡 Interactive Features
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/23ab0109-374d-405e-893e-98b7d8856136" />
+### 🌙 Dark Mode
+Allows users to switch between Light Mode and Dark Mode. The selected theme is saved using Local Storage.
 
+### 📝 Contact Form Validation
+Validates:
+- Name
+- Email
+- Message
 
-## Author 
-Simran Jaiswal
+Displays appropriate error and success messages.
+
+### ⬆️ Scroll to Top Button
+Appears when the page is scrolled down and smoothly scrolls back to the top.
+
+### 👋 Welcome Message
+Displays a dynamic welcome message using JavaScript DOM Manipulation.
+
+---
+
+## 📱 Responsive Design
+
+The website is fully responsive and works on:
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
+
+---
+
+## 📸 Screenshots
+
+Add screenshots of:
+
+- Home Page
+- About Section
+- Skills Section
+- Projects Section
+- Contact Section
+- Dark Mode
+- Mobile View
+
+---
+
+## 👩‍💻 Author
+
+**Simran Jaiswal**
+
+Computer Science & Engineering (Data Science) Student
+
+**GitHub:**  
+https://github.com/simranjaiswal801
+
+**LinkedIn:**  
+https://www.linkedin.com/in/simran-jaiswal-948791341/
+
+---
+
+## 📄 License
+
+This project is created for educational and portfolio purposes only.

@@ -106,9 +106,7 @@ Add screenshots of:
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2cb76c54-7903-4d39-b267-aa3f46ac94aa" />
 
-
-
-
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/986d0707-188b-40b7-96aa-b7fcbe9dee06" />
 
 
 ---

@@ -102,7 +102,8 @@ Add screenshots of:
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/eeb257a0-5658-4d3e-a332-6731ee41dcef" />
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c3920c74-2f06-4a8e-875d-32e7887f282a" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/26ed5ae4-19ae-4edf-b3a0-d28b473f900d" />
+
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2cb76c54-7903-4d39-b267-aa3f46ac94aa" />
 

@@ -98,13 +98,8 @@ https://simranjaiswal801.github.io/Personal-Portfolio-Website/
 
 Add screenshots of:
 
-- Home Page
-- About Section
-- Skills Section
-- Projects Section
-- Contact Section
-- Dark Mode
-- Mobile View
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/166e86cc-33a3-4416-85d8-9fbcec49e51c" />
+
 
 ---
 
